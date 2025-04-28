@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<title> U-Player Online Store </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="U-Playercss.css">
+</head>
+
+<body>
+  <!-- Cabecalho do site com o nome e o menu de navegacao -->
+  <header>
+	<h1>U-Player</h1>
+	<nav>
+      <a href="#" onclick="showSection('Home')"> Home</a>
+      <a href="#" onclick="showSection('tenis')">Tênis de Basquete</a>
+      <a href="#" onclick="showSection('Jerseys')">Jerseys</a>
+    </nav>
+  </header>
+    <!-- Banner principal do site -->
+    <section class="banner">
+      <h2>Entre na quadra com estilo!</h2>
+      <p>Os tênis e camisetas icônicas dos maiores jogadores da NBA, direto para sua casa.</p>
+    </section>	
+	
+ <main>
+
+<!-- Secao inicial (Home) mostrando lancamentos -->
+<section id="Home">
+      <h3> Lançamentos</h3>
+      <div class="produtos">
+	  
+        <!--os cards dos tênis -->
+		
+        <div class="card1">
+          <img src="lakers_kobe.webp" alt="lakers_kobe"> 
+          <h4>Camiseta Regata Lakers Kobe Bryant</h4>
+          <p>R$ 589,00</p>
+        </div>
+		
+        <div class="card2">
+          <img src="lebronXXII.webp" alt="Lebron XXII"> 
+          <h4>Lebron XXII</h4>
+          <p>R$ 999,00</p>
+        </div>		
+
+		<div class="card3">
+          <img src="mb3.webp" alt="mb3"> 
+          <h4>Puma MB.03</h4>
+          <p>R$ 1399,00</p>
+        </div>	
+
+		<div class="card4">
+          <img src="bulls_jordan.webp" alt="bulls_jordan"> 
+          <h4>Camiseta Regata Retro Jordan</h4>
+          <p>R$ 799,00</p>
+        </div>	
+
+		<div class="card5">
+          <img src="ae1.webp" alt="ae1"> 
+          <h4>Adidas Anthony Edwards 1</h4>
+          <p>R$ 899,00</p>
+        </div>	
+
+      </div>
+</section>
+
+<!-- Secao de tenis -->
+<section id="tenis" style="display:none;">
+      <h3> Tênis Mais Procurados</h3>
+      <div class="produtos">
+	  
+        <!--os cards dos tênis -->
+		
+        <div class="card1">
+          <img src="jordan39.webp" alt="Jordan 39"> 
+          <h4>Jordan 39</h4>
+          <p>R$ 999,00</p>
+        </div>
+		
+        <div class="card2">
+          <img src="lebronXXII.webp" alt="Lebron XXII"> 
+          <h4>Lebron XXII</h4>
+          <p>R$ 999,00</p>
+        </div>		
+
+		<div class="card3">
+          <img src="mb3.webp" alt="mb3"> 
+          <h4>Puma MB.03</h4>
+          <p>R$ 1399,00</p>
+        </div>	
+
+		<div class="card4">
+          <img src="harden8.webp" alt="harden8"> 
+          <h4>Adidas Harden 8</h4>
+          <p>R$ 799,00</p>
+        </div>	
+
+		<div class="card5">
+          <img src="ae1.webp" alt="ae1"> 
+          <h4>Adidas Anthony Edwards 1</h4>
+          <p>R$ 899,00</p>
+        </div>	
+
+      </div>
+</section>
+	
+<section id="Jerseys" style="display:none;">
+      <h3> Lançamentos</h3>
+      <div class="produtos">
+	  
+        <!--os cards das Jerseys -->
+		
+        <div class="card1">
+          <img src="lakers_kobe.webp" alt="lakers_kobe"> 
+          <h4>lakers_kobe.webp</h4>
+          <p>R$ 699,00</p>
+        </div>
+		
+        <div class="card2">
+          <img src="miami_wade.webp" alt="miami_wade"> 
+          <h4>Camiseta Regata Mami Heat Dwayne Wade</h4>
+          <p>R$ 699,00</p>
+        </div>		
+
+		<div class="card3">
+          <img src="bulls_jordan.webp" alt="bulls_jordan"> 
+          <h4>Camiseta Regata Retro Jordan</h4>
+          <p>R$ 699,00</p>
+        </div>	
+
+		<div class="card4">
+          <img src="grizzlies_morant.webp" alt="grizzlies_morant"> 
+          <h4>Camiseta Regata Retro Grizzlies Ja Morant</h4>
+          <p>R$ 699,00</p>
+        </div>	
+
+		<div class="card5">
+          <img src="warriors_curry.webp" alt="warriors_curry"> 
+          <h4>Camiseta Regata Warriors Stephen Curry</h4>
+          <p>R$ 699,00</p>
+        </div>	
+
+      </div>
+</section>
+	
+	
+	
+  </main>
+
+  <!-- Rodape do site -->
+  <footer>
+    <p>&copy; 2025 U-Player Store</p>
+  </footer>
+  
+<!-- Link para o script -->
+<script src="script.js"></script>
+</body>
+</html>
