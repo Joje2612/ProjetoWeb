@@ -38,7 +38,7 @@ O site apresenta:
 
 ### Diagrama de Navegação:
 
-![image](https://github.com/user-attachments/assets/54839515-307f-4d67-a5ff-fe57ce21455a)
+![image](https://github.com/user-attachments/assets/d49e94b2-2b9a-4adf-bbe2-a1ad04706461)
 
 ### Informações planejadas para salvar no servidor:
 - Dados dos produtos (nome, preço, descrição, quantidade em estoque por tamanho, imagem).
