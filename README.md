@@ -19,8 +19,8 @@
 - Acessibilidade e responsividade.
 
 ### Requisitos adicionais:
-- Loja especializada em produtos de basquete (Tênis e Jerseys).
-- Funcionalidade única planejada: quando o produto for clicado visualizar vídeo de jogador profissional.
+- Loja especializada em produtos de basquete (Jerseys).
+- Funcionalidade única planejada: quando o produto for clicado visualizar momentos marcantes do jogador profissional.
 
 ---
 
@@ -29,18 +29,19 @@
 O projeto é uma loja online de produtos de basquete chamada **U-Player**.  
 O site apresenta:
 - Tela inicial com lançamentos (Home)
-- Seção para **Tênis de basquete**.
 - Seção para **Jerseys** (camisetas de times/jogadores).
+- Seção de carrinho para vizualizar as compras.
+- Sistema de login de usuario como de administrador (Usuario:admin@admin.com Senha:admin)
+- Sistema CRUD de produtos
+- Sistema de gerencia de usuarios
 - Sistema de navegação utilizando `JavaScript`.
 
 ### Diagrama de Navegação:
 
-```
-<-> [Home] <-> [Tênis de Basquete] <-> [Jerseys] <-> [Home]...
-```
+![image](https://github.com/user-attachments/assets/54839515-307f-4d67-a5ff-fe57ce21455a)
 
 ### Informações planejadas para salvar no servidor:
-- Dados dos produtos (nome, preço, descrição, imagem, estoque).
+- Dados dos produtos (nome, preço, descrição, quantidade em estoque por tamanho, imagem).
 - Dados dos administradores e clientes (nome, id, endereço, telefone, e-mail).
 - Histórico de compras realizadas.
 
@@ -90,5 +91,5 @@ O site apresenta:
 ├── Trabalho_Home.html
 ├── U-Playercss.css
 ├── script.js
-└── imagens
+└── images
 ```
